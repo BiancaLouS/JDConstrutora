@@ -12,8 +12,47 @@
 }
 
 body{
-    background-color: #191970;
+    background-color: #fff5ee;
     font-family: 'texto';
     padding: 0px;
     margin: 0px;
+}
+
+a{
+   color: #000000;  
+   text-decoration: none;
+}
+
+a:hover{
+    color: #dc9f62 !important;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.linha_subitens{
+    display: flex;
+    justify-content: space-around;
+}
+
+.titulo{
+    font-variant: small-caps;
+    color: #432626;
+    text-align: center;
+}
+
+.conteudo90{
+    width: 90%;
+}
+
+.conteudo85{
+    width: 85%;
+}
+
+.linha{
+    border-width: 1px;
+    border-color: #704d34;
+    width: 70%;
+    margin: 60px auto;
 }
