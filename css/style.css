@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+/* ############# COMEÇO DO GERAL ############# */
+@font-face {
+    font-family: 'texto_menu';
+    src: url('fontes/ETHNOCEN.TTF');
+}
+ 
+@font-face {
+    font-family: 'texto';
+    src: url('fontes/Manun.ttf');
+}
+
+body{
+    background-color: #191970;
+    font-family: 'texto';
+    padding: 0px;
+    margin: 0px;
+}
